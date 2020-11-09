@@ -1,298 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <script src="http://www.zaarapp.com/assets/js/jquery.min.js"></script>
-  <link rel="stylesheet" href="http://www.zaarapp.com/assets/css/bootstrap.min.css">
-  <script src="http://www.zaarapp.com/assets/js/bootstrap.min.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-  <link rel="stylesheet" href="./newIndex.css">
-  <link rel="stylesheet" href="./font.css">
-<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">    
-<script src="https://unpkg.com/swiper/js/swiper.min.js"> </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <script src="./js/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="./css/iconfont.css">
+    <link rel="stylesheet" href="./css/newIndex.css">
+    <link rel="stylesheet" href="./css/font.css">
 </head>
 
-<body>
-  <header class="navbar-inverse">
-    <div class="navbar-header">
-      <a href="">
-        <img
-          src="http://img.bj.wezhan.cn/content/sitefiles/2042919/images/7944117_LOGO_285b06ef-a94e-4315-baa8-c0af1a217618_resize_picture.png"
-          alt="">
-      </a>
-      <ul class="nav navbar-nav">
-        <li class="dropdown dropdown_feature">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="http://www.zaarapp.com/"
-            aria-expanded="false">首页</span></a>
-        </li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="http://www.zaarapp.com/#"
-            aria-expanded="false">关于我们<span class="caret"></span></a>
-          <ul class="dropdown-menu benefits_menu">
-            <li><a href="./">公司简介</a></li>
-            <li><a href="./culture.html">企业文化</a></li >
-            <li><a href="./qualification.html">荣誉资质</a></li>
-            <li><a href="./ygfc">员工风采</a></li>
-            <li><a href="./gsyg.html">公司沿革</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="./product.html">产品系列<span
-              class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="./product.html">Crystal</a></li>
-            <li><a href="./product.html">MCF</a></li>
-            <li><a href="./product.html">Oscillators</a></li>
-            <li><a href="./product.html" target="_blank">Tuningfork</a></li>
-            <li><a href="./product.html" target="_blank">VCXO</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="http://www.zaarapp.com/">新闻中心<span
-              class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="http://help.zaarapp.com/">技术支持</a></li>
-            <li><a href="http://help.zaarapp.com/support/">公司资讯</a></li>
-          </ul>
-        </li>
-        <li><a href="http://www.zaarapp.com/price">人才招聘</a></li>
-        <li><a href="http://www.zaarapp.com/price">联系我们</a></li>
-        <!-- <li><a href="http://www.zaarapp.com/sign_up" class="signup_menu"><span id="free30">7</span><span id="days30"> Days Free Trail</span></a></li> -->
-      </ul>
+<body rlt="1" style="">
+    <header class="navbar-inverse">
+        <div class="navbar-header">
+            <a href="http://localhost:5000/">
+                <img src="./img/logo-banner.png" alt="">
+            </a>
+            <ul class="nav navbar-nav">
+                <li class="dropdown dropdown_feature">
+                    <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"
+                        href="http://localhost:5000/"><span>首页</span></a>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"
+                        href="http://localhost:5000/about">关于我们<span class="caret"></span></a>
+                    <ul class="dropdown-menu benefits_menu">
+                        <li><a href="http://localhost:5000/about/introduce">公司简介</a></li>
+                        <li><a href="http://localhost:5000/about/culture">企业文化</a></li>
+                        <li><a href="http://localhost:5000/about/qualification">荣誉资质</a></li>
+                        <li><a href="http://localhost:5000/about/staff">员工风采</a></li>
+                        <li><a href="http://localhost:5000/about/history">公司沿革</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="http://localhost:5000/product">
+                        产品系列<span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://localhost:5000/product/crystal">Crystal</a></li>
+                        <li><a href="http://localhost:5000/product/mcf">MCF</a></li>
+                        <li><a href="http://localhost:5000/product/oscillators">Oscillators</a></li>
+                        <li><a href="http://localhost:5000/product/tuningfork">Tuningfork</a></li>
+                        <li><a href="http://localhost:5000/product/vcxo">VCXO</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="http://localhost:5000/news">
+                        新闻中心<span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://localhost:5000/news/support">技术支持</a></li>
+                        <li><a href="http://localhost:5000/news/information">公司资讯</a></li>
+                    </ul>
+                </li>
+                <li><a href="http://localhost:5000/recruitment">人才招聘</a></li>
+                <li><a href="http://localhost:5000/contact">联系我们</a></li>
+                <!-- <li><a href="http://www.zaarapp.com/sign_up" class="signup_menu"><span id="free30">7</span><span id="days30"> Days Free Trail</span></a></li> -->
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+
+            <!-- <link rel="stylesheet" href="./css/swiper-bundle.min.css"> -->
+            <link href="./css/swiper.min.css" rel="stylesheet">
+            <script src="./js/swiper.min.js"></script>
+            <div class="container container-wrapper">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        
+                        <div class="swiper-slide bg2"></div>
+                        <div class="swiper-slide bg3"></div>
+                        <div class="swiper-slide bg1"></div>
+                        <div class="swiper-slide bg4"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                <div id="content" class="col-xs-12">
+                    <section class="introduction">
+                        <div class="wrapper">
+                            <h2 class="wrapper-mobile">公司简介</h2>
+                            <p class="light wrapper-mobile">Company Development and Introduction</p>
+                            <div class="company">
+                                <div class="clearfix">
+                                    <div class="left">
+                                        <img src="./img/7951831_公司咨询图片.jpeg" alt="">
+                                    </div>
+                                    <div class="right">
+                                        <h5><span>关于粤晨</span> / ABOUT US</h5>
+                                        <p>全力提升品质 , 全心满足客户</p>
+                                        <p class="text">
+                                            深圳市粤晨电子科技有限公司是一家拥有雄厚的高科技实力，拥有从日本引进的全套生产设备和从美国引进的高新检测仪器，专业从事高精度、超微型及特殊型石英晶体谐振器滤波器、及多功能振荡器的开发、生产和销售的高科技企业公司拥有一批年轻而富有朝气的员工队伍，在秉承全力提升品质，全心满足客户的原则下，公司努力致力于石英产品领域的更深层次的开发与研制......
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="clearfix">
+                                    <div class="left">
+                                        <img src="./img/7938884_图片_eb389a7d-ba0a-4394-9975-9598359b8858_resize_picture.jpeg"
+                                            alt="">
+                                    </div>
+                                    <div class="right">
+                                        <h5><span>关于粤晨</span> / ABOUT US</h5>
+                                        <p>全力提升品质 , 全心满足客户</p>
+                                        <p class="text">
+                                            深圳市粤晨电子科技有限公司是一家拥有雄厚的高科技实力，拥有从日本引进的全套生产设备和从美国引进的高新检测仪器，专业从事高精度、超微型及特殊型石英晶体谐振器滤波器、及多功能振荡器的开发、生产和销售的高科技企业公司拥有一批年轻而富有朝气的员工队伍，在秉承全力提升品质，全心满足客户的原则下，公司努力致力于石英产品领域的更深层次的开发与研制......
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="tmall center">
+                        <div class="wrapper">
+                            <h2 class="wrapper-mobile">产品系列</h2>
+                            <p class="light wrapper-mobile noBottom">Learn more about our advanced products</p>
+                            <ul class="grid columns-4 padded-2">
+                                <li>
+                                    <a id="home-tmall-msr" href="http://tb.cn/wBOXXJw" target="_blank"
+                                        class="show-mobile tablet-hidden">
+                                        <img src="./img/8123600_UM.png">
+                                        <p class="title-1"><strong>CRYRYSTAL</strong></p>
+                                        <p class="margin2">耐热性<br>在高温下震动工作</p>
+                                        <p class="caption">了解更多 ›</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a id="home-tmall-svc"
+                                        href="https://starbucks.m.tmall.com/shop/shop_auction_search.htm?spm=a1z60.7754813.0.0.55b01f1b3ATuTF&amp;sort=default&amp;shop_cn=%E8%99%9A%E6%8B%9F%E6%98%9F%E7%A4%BC%E5%8D%A1&amp;ascid=1275566403&amp;scid=1275566403"
+                                        target="_blank">
+                                        <img src="./img/8123618_DIPTYPE.png">
+                                        <p class="title-1"><strong>MCF</strong></p>
+                                        <p class="margin2">轻薄化<br>体积完美融入各种产品</p>
+                                        <p class="caption">了解更多 ›</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a id="home-tmall-drink"
+                                        href="https://starbucks.m.tmall.com/shop/shop_auction_search.htm?spm=a1z60.7754813.0.0.387c1f1bxr89O6&amp;sort=default&amp;shop_cn=%E7%94%B5%E5%AD%90%E9%A5%AE%E5%93%81%E5%88%B8&amp;ascid=1275566407&amp;scid=1275566407"
+                                        target="_blank">
+                                        <img src="./img/8123619_DIPtype.png">
+                                        <p class="title-1"><strong>TUNINGFORK</strong></p>
+                                        <p class="margin2">高精度<br>各种场合高频率工作</p>
+                                        <p class="caption">了解更多 ›</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a id="home-tmall-coffee"
+                                        href="https://starbucks.m.tmall.com/shop/shop_auction_search.htm?spm=a320p.7692363.0.0.7159451a5M4FwA&amp;sort=default&amp;shop_cn=%E5%92%96%E5%95%A1&amp;ascid=1356509430&amp;scid=1356509430"
+                                        target="_blank">
+                                        <img src="./img/8123626_S3215S4115.png">
+                                        <p class="title-1"><strong>VCXO</strong></p>
+                                        <p class="margin2">品质高<br>用心制作每一款产品</p>
+                                        <p class="caption">了解更多 ›</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="case amazing">
+                        <div class="container">
+                            <div class="wrapper center">
+                                <h2 class="wrapper-mobile">行业动态</h2>
+                                <p class="light wrapper-mobile">Various dynamic developments in the industry</p>
+                            </div>
+                            <div class="row">
+                                <div class="case-card col-md-4"><img
+                                        src="./img/7938885_图片1_4592b769-ee70-4f93-8b59-de05ab49d6c6_resize_picture.jpeg">
+                                    <i class="tag">自主研发</i>
+                                    <p class="case-card-company">小型化、薄片化和片式化</p>
+                                    <a>为满足移动电话为代表的便携式产品轻、薄、短小的要求，石英晶体振荡器的封装由传统的裸金属外壳覆塑料金属向陶瓷封装转变。例如TCXO这类器件的体积缩小了30～100倍。采用SMD封装的TCXO厚度不足2mm，目前5×3mm尺寸的器件已经上市</a>
+
+                                </div>
+                                <div class="case-card col-md-4"><img
+                                        src="./img/7938886_图片2_8df5f5b8-f679-420a-adce-835e1a14413a_resize_picture.jpeg">
+                                    <i class="tag">行业领先</i>
+                                    <p class="case-card-company">高精度与高稳定度</p>
+                                    <a>目前无补偿式晶体振荡器总精度也能达到±25ppm，VCXO的频率稳定度在10～7℃范围内一般可达±20～100ppm，而OCXO在同一温度范围内频率稳定度一般为±0.0001～5ppm，VCXO控制在±25ppm以下</a>
+                                </div>
+                                <div class="case-card col-md-4"><img
+                                        src="./img/7938887_图片3_3cec1702-911a-412b-9b31-7f9b262ac38b_resize_picture.jpeg">
+                                    <i class="tag">稳重有细</i>
+                                    <p class="case-card-company">低噪声，高频化</p>
+                                    <a>在GPS通信系统中是不允许频率颤抖的，相位噪声是表征振荡器频率颤抖的一个重要参数。目前OCXO主流产品的相位噪声性能有很大改善。除VCXO外，其它类型的晶体振荡器最高输出频率不超过200MHz。例如用于GSM等移动电话的UCV4系列压控振荡器，其频率为650～1700
+                                        MHz，电源电压2.2～3.3V，工作电流8～10mA</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-wrapper"></div>
+                    </section>
+                </div>
+            </div>
+
+        </main>
     </div>
-  </header>
-  <div class="container container-wrapper">
-    <!-- 轮播图 -->
-    <div id="ups-banner">
-      <div class="swiper-container swiper-container-horizontal">
-        <div class="swiper-wrapper" style="transform: translate3d(-5760px, 0px, 0px); transition-duration: 1000ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-next swiper-slide-duplicate-prev" data-swiper-slide-index="2" style="width: 1440px;">
-            <div class="content"><div class="txt"><h3>Your title</h3><p>UPS today announced a series of service </p><p>UPS today announced a series of service </p></div><a href="https://www.swiper.com.cn/demo/ups/#" class="link">Your link</a></div>
-            <div class="img-fix"><div class="img-inner"><img src="./ups3.jpg" class="img" style="transform: translateY(0%);"></div></div>
-          </div>
-          <div class="swiper-slide swiper-slide-duplicate-active" data-swiper-slide-index="0" style="width: 1440px;">
-            <div class="content"><div class="txt"><h3>Your title</h3><p>UPS today announced a series of service </p><p>UPS today announced a series of service </p></div><a href="https://www.swiper.com.cn/demo/ups/#" class="link">Your link</a></div>
-            <div class="img-fix"><div class="img-inner"><img src="./ups1.jpg" class="img" style="transform: translateY(0%);"></div></div>
-          </div>
-          <div class="swiper-slide" data-swiper-slide-index="1" style="width: 1440px;">
-            <div class="content"><div class="txt"><h3>Your title</h3><p>UPS today announced a series of service </p><p>UPS today announced a series of service </p></div><a href="https://www.swiper.com.cn/demo/ups/#" class="link">Your link</a></div>
-            <div class="img-fix"><div class="img-inner"><img src="./ups2.jpg" class="img" style="transform: translateY(0%);"></div></div>
-          </div>
-          <div class="swiper-slide swiper-slide-prev swiper-slide-duplicate-next" data-swiper-slide-index="2" style="width: 1440px;">
-            <div class="content"><div class="txt"><h3>Your title</h3><p>UPS today announced a series of service </p><p>UPS today announced a series of service </p></div><a href="https://www.swiper.com.cn/demo/ups/#" class="link">Your link</a></div>
-            <div class="img-fix"><div class="img-inner"><img src="./ups3.jpg" class="img" style="transform: translateY(0%);"></div></div>
-          </div>
-        <div class="swiper-slide swiper-slide-duplicate swiper-slide-active" data-swiper-slide-index="0" style="width: 1440px;">
-            <div class="content"><div class="txt"><h3>Your title</h3><p>UPS today announced a series of service </p><p>UPS today announced a series of service </p></div><a href="https://www.swiper.com.cn/demo/ups/#" class="link">Your link</a></div>
-            <div class="img-fix"><div class="img-inner"><img src="./ups1.jpg" class="img" style="transform: translateY(0%);"></div></div>
-          </div></div>
-        <div class="bottom-nav"><div class="ups-icon-videoplay"></div><div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span></div></div>
-        <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"></div>
-        <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide"></div>
-      <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
-    </div>
-    <div id="content" class="col-xs-12">
-      <section class="introduction">
-        <div class="wrapper">
-          <h2 class="wrapper-mobile">公司简介</h2>
-          <p class="light wrapper-mobile">Company Development and Introduction</p>
-          <h5>
-            深圳市粤晨电子科技有限公司是一家2002年7月成立，拥有雄厚的高科技实力，拥有从日本引进的全套生产设备和从美国引进的</br>高新检测仪器，专业从事高精度超微型及特殊型石英晶体谐振器、滤波器、及多功能振荡器的开发、生产、销售和服务于一体的高科技企业.
-          </h5>
-        </div>
-      </section>
-      <section class="tmall center">
-        <div class="wrapper">
-          <h2 class="wrapper-mobile">产品系列</h2>
-          <p class="light wrapper-mobile">Learn more about our advanced products</p>
-          <ul class="grid columns-4 padded-2">
-            <li>
-              <a id="home-tmall-msr" href="http://tb.cn/wBOXXJw" target="_blank" class="show-mobile tablet-hidden">
-                <img src="http://img.bj.wezhan.cn/content/sitefiles/2042919/images/8123600_UM.png">
-                <p class="title-1"><strong>CRYRYSTAL</strong></p>
-                <p class="margin2">星享卡新升级<br>更多心意好礼</p>
-                <p class="caption">了解更多 ›</p>
-              </a>
-            </li>
-            <li>
-              <a id="home-tmall-svc"
-                href="https://starbucks.m.tmall.com/shop/shop_auction_search.htm?spm=a1z60.7754813.0.0.55b01f1b3ATuTF&amp;sort=default&amp;shop_cn=%E8%99%9A%E6%8B%9F%E6%98%9F%E7%A4%BC%E5%8D%A1&amp;ascid=1275566403&amp;scid=1275566403"
-                target="_blank">
-                <img src="http://img.bj.wezhan.cn/content/sitefiles/2042919/images/8123618_DIPTYPE.png">
-                <p class="title-1"><strong>MCF</strong></p>
-                <p class="margin2">用一份心礼<br>让心意相随</p>
-                <p class="caption">了解更多 ›</p>
-              </a>
-            </li>
-            <li>
-              <a id="home-tmall-drink"
-                href="https://starbucks.m.tmall.com/shop/shop_auction_search.htm?spm=a1z60.7754813.0.0.387c1f1bxr89O6&amp;sort=default&amp;shop_cn=%E7%94%B5%E5%AD%90%E9%A5%AE%E5%93%81%E5%88%B8&amp;ascid=1275566407&amp;scid=1275566407"
-                target="_blank">
-                <img src="http://img.bj.wezhan.cn/content/sitefiles/2042919/images/8123619_DIPtype.png">
-                <p class="title-1"><strong>TUNINGFORK</strong></p>
-                <p class="margin2">心意<br>从这一杯开始</p>
-                <p class="caption">了解更多 ›</p>
-              </a>
-            </li>
-            <li>
-              <a id="home-tmall-coffee"
-                href="https://starbucks.m.tmall.com/shop/shop_auction_search.htm?spm=a320p.7692363.0.0.7159451a5M4FwA&amp;sort=default&amp;shop_cn=%E5%92%96%E5%95%A1&amp;ascid=1356509430&amp;scid=1356509430"
-                target="_blank">
-                <img src="http://img.bj.wezhan.cn/content/sitefiles/2042919/images/8123626_S3215S4115.png">
-                <p class="title-1"><strong>VCXO</strong></p>
-                <p class="margin2">星巴克<br>用心制作</p>
-                <p class="caption">了解更多 ›</p>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="coffeehouse">
-        <div class="wrapper center">
-          <h2 class="wrapper-mobile">技术解析</h2>
-          <p class="light wrapper-mobile">Learn more about crystal oscillator</p>
-        </div>
-        <div class="scroll-wrapper">
-          <div class="scroll-arrow scroll-arrow-left hidden">
-            <img src="./icon-scroll-left.svg">
-          </div>
-          <div class="scroll">
-            <div class="wrapper">
-              <div class="scroll-items">
-                <a id="home-blog-origin" target="_blank"
-                  href="https://www.starbucks.com.cn/coffee-blog/the-origin-of-coffee-and-its-cultivation/"
-                  class="thumbnail rect card">
-                  <div class="preview"
-                    style="background-image: url(http://img.bj.wezhan.cn/content/sitefiles/2042919/images/7951831_公司咨询图片.jpeg)">
-                  </div>
-                  <span class="tag">自主研发</span>
-                  <strong>自助研发出46S系列迷你晶振</strong>
-                </a>
-                <a id="home-blog-fundamentals" target="_blank"
-                  href="https://www.starbucks.com.cn/coffee-blog/the-4-fundamentals/" class="thumbnail rect card">
-                  <div class="preview"
-                    style="background-image: url(http://img.bj.wezhan.cn/content/sitefiles/2042919/images/7950839_行业动态图片.jpeg)">
-                  </div>
-                  <span class="tag">晶振发展</span>
-                  <!-- <time>08/07/2017</time> -->
-                  <strong>向SMD发展</strong>
-                </a>
-                <a id="home-blog-roast" target="_blank" href="https://www.starbucks.com.cn/coffee-blog/roast-story/"
-                  class="thumbnail rect card">
-                  <div class="preview"
-                    style="background-image: url(./aa.png)">
-                  </div>
-                  <span class="tag">咖啡知识</span>
-                  <!-- <time>08/07/2017</time> -->
-                  <strong>咖啡烘焙</strong>
-                </a>
-                <a id="home-blog-pour" target="_blank" href="https://www.starbucks.com.cn/coffee-blog/pour-over/"
-                  class="thumbnail rect card">
-                  <div class="preview"
-                    style="background-image: url(https://www-static.chinacdn.starbucks.com.cn/prod/assets/images/homepage/coffeehouse-pour-over-kv.jpg)">
-                  </div>
-                  <span class="tag">咖啡品鉴</span>
-                  <!-- <time>08/07/2017</time> -->
-                  <strong>手冲咖啡</strong>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="case amazing">
-        <div class="container">
-          <div class="wrapper center">
-            <h2 class="wrapper-mobile">行业动态</h2>
-            <p class="light wrapper-mobile">Various dynamic developments in the industry</p>
-          </div>
-          <div class="row">
-            <div class="case-card col-md-4"><a
-                href="https://scrapbox.io/customer-stories/Mamezou_increased_new_ideas_within_a_team_of_many_consultants"
-                target="_blank" rel="noopener"><img
-                  src="http://img.bj.wezhan.cn/content/sitefiles/2042919/images/7938885_图片1_4592b769-ee70-4f93-8b59-de05ab49d6c6_resize_picture.jpeg"></a>
-              <p class="case-card-company">小型化、薄片化和片式化</p>
-              <h5>为满足移动电话为代表的便携式产品轻、薄、短小的要求，石英晶体振荡器的封装由传统的裸金属外壳覆塑料金属向陶瓷封装转变。例如TCXO这类器件的体积缩小了30～100倍。采用SMD封装的TCXO厚度不足2mm，目前5×3mm尺寸的器件已经上市</h5>
-            
-            </div>
-            <div class="case-card col-md-4"><a
-                href="https://scrapbox.io/customer-stories/Net_Protections_says_Scrapbox_is_%22essential_for_knowledge_management%22"
-                target="_blank" rel="noopener"><img
-                  src="http://img.bj.wezhan.cn/content/sitefiles/2042919/images/7938886_图片2_8df5f5b8-f679-420a-adce-835e1a14413a_resize_picture.jpeg"></a>
-              <p class="case-card-company">高精度与高稳定度</p>
-              <h5>目前无补偿式晶体振荡器总精度也能达到±25ppm，VCXO的频率稳定度在10～7℃范围内一般可达±20～100ppm，而OCXO在同一温度范围内频率稳定度一般为±0.0001～5ppm，VCXO控制在±25ppm以下</h5>
-              <!-- <p class="case-card-text">We use it for creating meeting minutes, plans, and sharing work progress. Work
-                has
-                been fun since we started using it.</p> -->
-            </div>
-            <div class="case-card col-md-4"><a
-                href="https://scrapbox.io/customer-stories/Goodpatch_uses_Scrapbox_to_support_a_remote_team_of_60"
-                target="_blank" rel="noopener"><img
-                  src="http://img.bj.wezhan.cn/content/sitefiles/2042919/images/7938887_图片3_3cec1702-911a-412b-9b31-7f9b262ac38b_resize_picture.jpeg"></a>
-              <p class="case-card-company">低噪声，高频化</p>
-              <h5>在GPS通信系统中是不允许频率颤抖的，相位噪声是表征振荡器频率颤抖的一个重要参数。目前OCXO主流产品的相位噪声性能有很大改善。除VCXO外，其它类型的晶体振荡器最高输出频率不超过200MHz。例如用于GSM等移动电话的UCV4系列压控振荡器，其频率为650～1700
-                  MHz，电源电压2.2～3.3V，工作电流8～10mA</h5>
-            </div>
-          </div>
-          <div class="about-link text-right"><a href="http://www.szyuechen.com/newsitem/277581541">Read more</a></div>
-        </div>
-      </section>
-    </div>
-  </div>
-  <footer>
-    <p>2016 © 深圳市粤晨电子科技有限公司 All Rights Reserved.  京ICP备12345648号</p>
-  </footer>
+
+    <footer class="border-top footer text-muted">
+        <p> 2016 © 深圳市粤晨电子科技有限公司 All Rights Reserved. 京ICP备12345648号</p>
+    </footer>
+    <script>
+        $(function () {
+            var upsSwiper = new Swiper('.swiper-container', {
+                speed: 1000,
+                longSwipes: false,
+                loop: true,
+                autoplay: {
+                    disableOnInteraction: false,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                on: {
+                    autoplayStop: function () {
+                        this.$el.find(".ups-icon-videoplay").addClass('stop-status');
+                    },
+                    autoplayStart: function () {
+                        this.$el.find(".ups-icon-videoplay").removeClass('stop-status');
+                    },
+
+                }
+            });
+
+            upsSwiper.$el.find(".ups-icon-videoplay").on('click', function () {
+                if (upsSwiper.autoplay.running) {
+                    upsSwiper.autoplay.stop();
+                } else {
+                    upsSwiper.autoplay.start();
+                }
+            });
+
+            swiperHeight = upsSwiper.height
+
+            window.onscroll = function scroll() {
+                if (window.pageYOffset / upsSwiper.height < 1) {
+                    scrollScale = window.pageYOffset / swiperHeight;
+                } else {
+                    scrollScale = 1;
+                }
+
+                upsSwiper.slides.find(".img").transform('translateY(-' + 18 * scrollScale +
+                    '%)') //滚动一屏swiper高度则图片向上18%（范围0-40）
+
+            }
+        })
+        var mySwiper = new Swiper('.swiper-container', {
+            autoplay: true, //可选选项，自动滑动
+            paginationClickable: true,
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+        })
+    </script>
+
+
+
 </body>
-<script>        
-$(function(){
-  var upsSwiper = new Swiper('.swiper-container', {
-	speed: 1000,
-	longSwipes: false,
-	loop: true,
-	autoplay: {
-		disableOnInteraction: false,
-	},
-	navigation: {
-		nextEl: '.swiper-button-next',
-		prevEl: '.swiper-button-prev',
-	},
-	pagination: {
-		el: '.swiper-pagination',
-		clickable: true,
-	},
-	on: {
-		autoplayStop: function() {
-			this.$el.find(".ups-icon-videoplay").addClass('stop-status');
-		},
-		autoplayStart: function() {
-			this.$el.find(".ups-icon-videoplay").removeClass('stop-status');
-		},
 
-	}
-});
-
-upsSwiper.$el.find(".ups-icon-videoplay").on('click', function() {
-	if (upsSwiper.autoplay.running) {
-		upsSwiper.autoplay.stop();
-	} else {
-		upsSwiper.autoplay.start();
-	}
-});
-
-swiperHeight = upsSwiper.height
-
-window.onscroll = function scroll() {
-	if (window.pageYOffset / upsSwiper.height < 1) {
-		scrollScale = window.pageYOffset / swiperHeight;
-	} else {
-		scrollScale = 1;
-	}
-
-	upsSwiper.slides.find(".img").transform('translateY(-' + 18 * scrollScale + '%)') //滚动一屏swiper高度则图片向上18%（范围0-40）
-
-}
-})       
-  </script>
 </html>

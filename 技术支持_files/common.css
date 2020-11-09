@@ -1,0 +1,367 @@
+@import url("fonts.css");
+@import url("button.css");
+@import url("un-reset.css");
+
+body p{ line-height: 24px }
+
+
+/*=========================鲁]漏w=========================*/
+.bok{ display:block}
+.bokin{ display:inline}
+.bokink{ display:inline-block;*display:inline;zoom:1;}
+.bok-left{ float:left; display:block}
+.bok-right{ float:right; display:block}
+.bok-clear{ clear:both}
+
+.bokbok{ display:block; overflow: hidden}
+.bokbok:after{clear:both;content: ''}
+
+/*=========================Color=========================*/
+/*-red---*/.c-r1{color:#c00}/*卢玫*/.c-r2{color:#f00}/*娄赂卢玫*/.c-r3{color:#900}/*路t卢玫*/.c-r4{color:#fcc}/*炉禄卢玫*/
+/*-blue--*/.c-b1{color:#005ead}/*脗脜*/.c-b2{color:#333}/*娄赂脗脜*/.c-b3{color:#039}/*路t脗脜*/.c-r4{color:#9cf}/*炉禄脗脜*/
+/*-green-*/.c-g1{color:#393}/*潞帽*/.c-g2{color:#693}/*娄赂潞帽*/.c-g3{color:#060}/*路t潞帽*/.c-g4{color:#9f9}/*炉禄潞帽*/
+/*-yellow*/.c-y1{color:#fc0}/*露脌*/.c-y2{color:#ff6}/*娄赂露脌*/.c-y3{color:#ffde00}/*路t露脌*/.c-y4{color:#ffc}/*炉禄露脌*/
+/*-oringe*/.c-o1{color:#ff5a00}/*戮茂*/.c-o2{color:#f93}/*娄赂戮茂*/.c-o3{color:#c30}/*路t戮茂*/.c-o4{color:#fc9}/*炉禄戮茂*/
+/*-purple*/.c-p1{color:#bc60a1}/*碌碌*/.c-p2{color:#d4a0c3}/*娄赂碌碌*/.c-p3{color:#906}/*路t碌碌*/.c-p4{color:#fcf}/*炉禄碌碌*/
+/*-brown-*/.c-br1{color:#963}/*陆脜*/.c-br2{color:#8e6e00}/*娄赂陆脜*/.c-br3{color:#630}/*路t陆脜*/.c-br4{color:#c4a178}/*炉禄陆脜*/
+
+/*-碌L卤m篓t-*/
+.c-ff{color:#fff}.c-bk{color:#000}.c-grc{color:#ccc}.c-grd{color:#ddd}.c-gre{color:#eee}
+.c-gr3{color:#333}.c-gr4{color:#444}.c-gr5{color:#555}.c-gr6{color:#666}.c-gr7{color:#777}.c-gr8{color:#888}.c-gr9{color:#999}
+
+
+
+/*=========================background-color=========================*/
+.bkc-3{ background-color:#333;}.bkc-6{ background-color:#666;}.bkc-9{ background-color:#999;}
+.bkc-e{ background-color:#eee;}.bkc-c{ background-color:#ccc;}.bkc-d{ background-color:#ddd;}
+.bkc-f{ background-color:#fff;}.bkc-ffc{ background-color:#ffc;}
+.bkc-bb{ background-color:#4cb2ed;}
+.bkc-bc{ background-color:#d2ebff;}
+
+
+
+/*=========================Link-effect=========================*/
+.lk-gr{color:#999}.lk-gr:hover{color:#c00}
+.lk-gr5{color:#555}.lk-gr5:hover{color:#c00}
+.lk-gr5-b{color:#555}.lk-gr5-b:hover{color:#06c}
+.lk-ff{color:#fff}.lk-ff:hover{color:#0CF}
+
+
+.lk-p{color:#c69}.lk-p:hover{color:#06c}
+.lk-pu{color:#c69;text-decoration:underline;}.lk-pu:hover{color:#39c; text-decoration:none}
+.lk-pl{color:#c69; border-bottom:1px solid #c69}.lk-pl:hover{color:#39c; border-bottom:none}
+.lk-b{color:#39c}.lk-b:hover{color:#c69}
+.lk-bu{color:#39c;text-decoration:underline;}.lk-bu:hover{color:#c69; text-decoration:none}
+.lk-bl{color:#39c; border-bottom:1px solid #39c}.lk-bl:hover{color:#c69; border-bottom:none}
+.lk-r{color:#f00}.lk-r:hover{color:#06c}
+.lk-ru{color:#f00;text-decoration:underline;}.lk-ru:hover{color:#06c; text-decoration:none}
+.lk-rl{color:#f00; border-bottom:1px solid #f00}.lk-rl:hover{color:#06c; border-bottom:none}
+
+.lk-no{ cursor:default}/*篓煤庐酶鲁s碌虏鹿脧楼脺*/
+.lk-on{ cursor:pointer}/*录W楼[鲁s碌虏鹿脧楼脺*/
+
+
+/*=========================Font=========================*/
+
+/*--size---*/
+
+/*---卤M脛脻娄r脜茅虏脮---*/
+/*.f-s12{font:normal 12px Arial,"虏脫漏煤脜茅";}.f-s12b{font:bold 12px Arial,"虏脫漏煤脜茅";}*/
+.f-s12 {font-size:12px}.f-s12b {font-weight:bold;font-size:12px}
+.f-s13 {font-size:13px}.f-s13b {font-weight:bold;font-size:13px}
+.f-s14 {font-size:14px}.f-s14b {font-weight:bold;font-size:14px}
+.f-s15 {font-size:15px}.f-s15b {font-weight:bold;font-size:15px}
+.f-s16 {font-size:16px}.f-s16b {font-weight:bold;font-size:16px}
+.f-s18 {font-size:18px}.f-s18b {font-weight:bold;font-size:18px}
+.f-s20 {font-size:20px}.f-s20b {font-weight:bold;font-size:20px}
+.f-s22 {font-size:22px}.f-s22b {font-weight:bold;font-size:22px}
+.f-s24 {font-size:24px}.f-s24b {font-weight:bold;font-size:24px}
+.f-s26 {font-size:26px}.f-s26b {font-weight:bold;font-size:26px}
+.f-s28 {font-size:28px}.f-s28b {font-weight:bold;font-size:28px}
+.f-s30 {font-size:30px}.f-s30b {font-weight:bold;font-size:30px}
+.f-s32 {font-size:32px}.f-s32b {font-weight:bold;font-size:32px}
+.f-s34 {font-size:34px}.f-s34b {font-weight:bold;font-size:34px}
+.f-s36 {font-size:36px}.f-s36b {font-weight:bold;font-size:36px}
+.f-s38 {font-size:38px}.f-s38b {font-weight:bold;font-size:38px}
+.f-s40 {font-size:40px}.f-s40b {font-weight:bold;font-size:40px}
+.f-s46 {font-size:46px}.f-s46b {font-weight:bold;font-size:46px}
+.f-s48 {font-size:48px}.f-s48b {font-weight:bold;font-size:48px}
+.f-s50 {font-size:50px}.f-s48b {font-weight:bold;font-size:50px}
+
+/*---娄r脜茅---*/
+.f-fa {font-family:Arial,"虏脫漏煤脜茅";}
+.f-fb {font-family:Arial,"路L鲁n楼驴露脗脜茅","Microsoft JhengHei",sans-serif;}
+
+.tsp1{ letter-spacing:1px}.tsp2{ letter-spacing:2px}.tsp3{ letter-spacing:3px}
+.tspA{ text-indent:30px}
+.sp2em{ text-indent:2em}
+
+/*---娄忙掳陋---*/
+.lh-12{ line-height:12px}.lh-15{ line-height:15px}.lh-18{ line-height:18px}.lh-20{ line-height:20px}.lh-22{ line-height:22px}.lh-24{ line-height:24px}
+.lh-28{ line-height:28px}.lh-30{ line-height:30px}.lh-36{ line-height:36px}.lh-42{ line-height:42px}.lh-48{ line-height:48px}
+.lh-no{ line-height:normal}/*篓煤庐酶娄忙掳陋*/
+.f-w-no{ font-weight:normal}/*篓煤庐酶虏脢脜茅*/
+
+/*--鹿茂禄么---*/
+.ta-c{ text-align:center}.ta-l{ text-align:left}.ta-r{ text-align:right}
+.va-t{ vertical-align:top}.va-c{ vertical-align:middle}.va-b{ vertical-align:bottom}
+.ma-c{ margin-left:auto; margin-right:auto}
+
+
+/*=========================table=========================*/
+td{ padding:5px;}
+table.line{ border-left:1px solid #ccc;border-top:1px solid #ccc}
+table.line td{ border-right:1px solid #ccc;border-bottom:1px solid #ccc; text-align: left;}
+table.line tr:nth-child(odd) td{background:#f3f3f3 ;}
+table.line tr:first-child td {background: #D2EBFF; }
+
+table.line ol li,table.lineF ol li{ list-style-type: decimal; margin-left: 20px; text-align: left}
+
+table.lineF{ border-left:1px solid #fff;border-top:1px solid #fff}
+table.lineF td{ border-right:1px solid #fff;border-bottom:1px solid #fff; text-align: center;}
+table.lineF tr:nth-child(odd) td{background:#f3f3f3 ;}
+table.lineF tr:first-child td {background: #D2EBFF; }
+table.lineF tr:first-child td.bgr{background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzVlYzZlOSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzBjODhiMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA=='); background-size: 100%; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #5ec6e9), color-stop(100%, #0c88b2)); background-image: -moz-linear-gradient(top, #5ec6e9, #0c88b2); background-image: -webkit-linear-gradient(top, #5ec6e9, #0c88b2); background-image: linear-gradient(to bottom, #5ec6e9, #0c88b2);
+border-bottom: 2px solid #aaa; color: #fff}
+
+
+table.line2{ border-left:1px solid #fff;border-top:1px solid #fff}
+table.line2 td{ text-align:center; vertical-align:middle; font-size:12px;border-right:2px solid #fff;border-bottom:2px solid #fff}
+table.line2 tr:nth-child(even) td{background:#f3f3f3 ;}
+table.line2 tr:first-child td {background: #D2EBFF; }
+
+
+table.line3{ border-left:1px solid #ccc;border-top:1px solid #ccc; font-size: 12px}
+table.line3 td{ border-right:1px solid #ccc;border-bottom:1px solid #ccc; text-align: left;}
+table.line3 tr:nth-child(odd) td{background:#f3f3f3 ;}
+table.line3 tr:first-child td {background: #D2EBFF;  text-align: center;}
+table.line3 td:nth-child(1){ width:8% ;text-align: center;}
+table.line3 td:nth-child(2){ width:15% }
+table.line3 td:nth-child(3){ width:10%;text-align: center; }
+table.line3 td:nth-child(4){ width:20% }
+table.line3 td:nth-child(5){ width:28% }
+table.line3 td:nth-child(6){ width:10%;text-align: center; }
+table.line3 td:nth-child(7){ width:10%;text-align: center; }
+
+ol.num li{ list-style-type: decimal; margin-left: 20px; text-align: left}
+ol.nums li{ list-style-type: lower-alpha; margin-left: 20px; text-align: left}
+
+ul.uldot li{ list-style-type: disc ; margin-left: 20px; text-align: left}
+
+
+/*=========================input=========================*/
+input{ vertical-align:middle}
+.inwh12{width:12px; height:12px;}.inwh15{width:15px; height:15px;}
+.in01{ width:1%}.in02{ width:2%}.in03{ width:3%}.in04{ width:4%}.in05{ width:5%}
+.in06{ width:6%}.in07{ width:7%}.in08{ width:8%}.in09{ width:9%}.in10{ width:10%}
+.in11{ width:11%}.in12{ width:12%}.in13{ width:13%}.in14{ width:14%}.in15{ width:15%}
+.in16{ width:16%}.in17{ width:17%}.in18{ width:18%}.in19{ width:19%}.in20{ width:20%}
+.in21{ width:21%}.in22{ width:22%}.in23{ width:23%}.in24{ width:24%}.in25{ width:25%}
+.in26{ width:26%}.in27{ width:27%}.in28{ width:28%}.in29{ width:19%}.in30{ width:30%}
+.in31{ width:31%}.in32{ width:32%}.in33{ width:33%}.in34{ width:34%}.in35{ width:35%}
+.in16{ width:36%}.in37{ width:37%}.in38{ width:38%}.in39{ width:39%}.in40{ width:40%}
+.in41{ width:41%}.in42{ width:42%}.in43{ width:43%}.in44{ width:44%}.in45{ width:45%}
+.in46{ width:46%}.in47{ width:47%}.in48{ width:48%}.in49{ width:49%}.in50{ width:50%}
+.in51{ width:51%}.in52{ width:52%}.in53{ width:53%}.in54{ width:54%}.in55{ width:55%}
+.in56{ width:56%}.in57{ width:57%}.in58{ width:58%}.in59{ width:59%}.in60{ width:60%}
+.in61{ width:61%}.in62{ width:62%}.in63{ width:63%}.in64{ width:64%}.in65{ width:65%}
+.in66{ width:66%}.in67{ width:67%}.in68{ width:68%}.in69{ width:69%}.in70{ width:70%}
+.in71{ width:71%}.in72{ width:72%}.in73{ width:73%}.in74{ width:74%}.in75{ width:75%}
+.in76{ width:76%}.in77{ width:87%}.in78{ width:78%}.in79{ width:79%}.in80{ width:80%}
+.in81{ width:81%}.in82{ width:82%}.in83{ width:83%}.in84{ width:84%}.in85{ width:85%}
+.in86{ width:86%}.in87{ width:87%}.in88{ width:88%}.in89{ width:89%}.in90{ width:90%}
+.in91{ width:91%}.in92{ width:92%}.in93{ width:93%}.in94{ width:94%}.in95{ width:95%}
+.in96{ width:96%}.in97{ width:97%}.in98{ width:98%}.in99{ width:99%}.in100{ width:100%}
+
+
+/*=========================Action Effect=========================*/
+.mv{-webkit-transition:all 0.8s;-moz-transition:all 0.8s;-ms-transition:all 0.8s;o-transition:all 0.8s;transition:all 0.8s;}
+
+@-webkit-keyframes fin{0%  {opacity:0;}	100%  {opacity:1;}}
+@-moz-keyframes fin{0%  {opacity:0;}	100%  {opacity:1;}}
+@-ms-keyframes fin{0%  {opacity:0;}	100%  {opacity:1;}}
+@-o-keyframes fin{0%  {opacity:0;}	100%  {opacity:1;}}
+@keyframes fin{0%  {opacity:0;}	100%  {opacity:1;}}
+
+
+.scale{-webkit-transform:scale(.85);-moz-transform:scale(.85);-ms-transform:scale(.85);-o-transform:scale(.85);transform:scale(.85);
+-webkit-transform-origin:left top;-moz-transform-origin:left top;-ms-transform-origin:left top;-o-transform-origin:left top;transform-origin:left top;}
+
+
+/*=========================露锚篓陇=========================*/
+.bor5{-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;}.bor8{-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;}
+.bor10{-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;}.bor15{-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;}
+.bor20{-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;}.bor30{-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px;}
+.bor40{-webkit-border-radius:40px;-moz-border-radius:40px;border-radius:40px;}.bor30{-webkit-border-radius:50px;-moz-border-radius:50px;border-radius:50px;}
+
+
+/*=========================楼~庐脴露Z=========================*/
+/*--楼镁--*/
+.outsp2{ margin:2px}.outsp3{ margin:3px}.outsp5{ margin:5px}.outsp8{ margin:8px}.outsp10{ margin:10px}
+.outsp15{ margin:15px}.outsp20{ margin:20px}.outsp25{ margin:25px}.outsp30{ margin:30px}.outsp35{ margin:35px}.outsp40{ margin:40px}
+.outsp45{ margin:45px}.outsp50{ margin:50px}.outsp55{ margin:55px}.outsp60{ margin:60px}.outsp65{ margin:65px}.outsp40{ margin:70px}
+.outsp80{ margin:80px}.outsp85{ margin:85px}.outsp90{ margin:90px}.outsp95{ margin:95px}.outsp100{ margin:100px}
+/*--楼陋--*/
+.outsp2-l{ margin-left:2px}.outsp5-l{ margin-left:5px}.outsp8-l{ margin-left:8px}.outsp10-l{ margin-left:10px}
+.outsp15-l{ margin-left:15px}.outsp18-l{ margin-left:18px}.outsp20-l{ margin-left:20px}.outsp25-l{ margin-left:25px}
+.outsp30-l{ margin-left:30px}.outsp35-l{ margin-left:35px}.outsp40-l{ margin-left:40px}.outsp45-l{ margin-left:45px}
+.outsp50-l{ margin-left:50px}.outsp55-l{ margin-left:55px}.outsp60-l{ margin-left:60px}.outsp65-l{ margin-left:65px}
+.outsp70-l{ margin-left:70px}.outsp75-l{ margin-left:75px}.outsp80-l{ margin-left:80px}.outsp85-l{ margin-left:85px}
+.outsp90-l{ margin-left:90px}.outsp95-l{ margin-left:95px}.outsp100-l{ margin-left:100px}
+/*--楼k--*/
+.outsp2-r{ margin-right:2px}.outsp5-r{ margin-right:5px}.outsp8-r{ margin-right:8px}.outsp10-r{ margin-right:10px}
+.outsp15-r{ margin-right:15px}.outsp18-r{ margin-right:18px}.outsp20-r{ margin-right:20px}.outsp25-r{ margin-right:25px}
+.outsp30-r{ margin-right:30px}.outsp35-r{ margin-right:35px}.outsp40-r{ margin-right:40px}.outsp45-r{ margin-right:45px}
+.outsp50-r{ margin-right:50px}.outsp55-r{ margin-right:55px}.outsp60-r{ margin-right:60px}.outsp65-r{ margin-right:65px}
+.outsp70-r{ margin-right:70px}.outsp75-r{ margin-right:75px}.outsp80-r{ margin-right:80px}.outsp85-r{ margin-right:85px}
+.outsp90-r{ margin-right:90px}.outsp95-r{ margin-right:95px}.outsp100-r{ margin-right:100px}
+/*--陇W--*/
+.outsp2-t{ margin-top:2px}.outsp5-t{ margin-top:5px}.outsp8-t{ margin-top:8px}.outsp10-t{ margin-top:10px}
+.outsp15-t{ margin-top:15px}.outsp18-t{ margin-top:18px}.outsp20-t{ margin-top:20px}.outsp25-t{ margin-top:25px}
+.outsp30-t{ margin-top:30px}.outsp35-t{ margin-top:35px}.outsp40-t{ margin-top:40px}.outsp45-t{ margin-top:45px}
+.outsp50-t{ margin-top:50px}.outsp55-t{ margin-top:55px}.outsp60-t{ margin-top:60px}.outsp65-t{ margin-top:65px}
+.outsp70-t{ margin-top:70px}.outsp75-t{ margin-top:75px}.outsp80-t{ margin-top:80px}.outsp85-t{ margin-top:85px}
+.outsp90-t{ margin-top:90px}.outsp95-t{ margin-top:95px}.outsp100-t{ margin-top:100px}
+/*--陇U--*/
+.outsp2-b{ margin-bottom:2px}.outsp5-b{ margin-bottom:5px}.outsp8-b{ margin-bottom:8px}.outsp10-b{ margin-bottom:10px}
+.outsp15-b{ margin-bottom:15px}.outsp18-b{ margin-bottom:18px}.outsp20-b{ margin-bottom:20px}.outsp25-b{ margin-bottom:25px}
+.outsp30-b{ margin-bottom:30px}.outsp35-b{ margin-bottom:35px}.outsp40-b{ margin-bottom:40px}.outsp45-b{ margin-bottom:45px}
+.outsp50-b{ margin-bottom:50px}.outsp55-b{ margin-bottom:55px}.outsp60-b{ margin-bottom:60px}.outsp65-b{ margin-bottom:65px}
+.outsp70-b{ margin-bottom:70px}.outsp75-b{ margin-bottom:75px}.outsp80-b{ margin-bottom:80px}.outsp85-b{ margin-bottom:85px}
+.outsp90-b{ margin-bottom:90px}.outsp95-b{ margin-bottom:95px}.outsp100-b{ margin-bottom:100px}
+
+/*=========================陇潞庐脴露Z=========================*/
+/*--楼镁--*/
+.insp2{ padding:2px}.insp3{ padding:3px}.insp5{ padding:5px}.insp8{ padding:8px}.insp10{ padding:10px}
+.insp15{ padding:15px}.insp20{ padding:20px}.insp25{ padding:25px}.insp30{ padding:30px}.insp35{ padding:35px}.insp40{ padding:40px}
+.insp45{ padding:45px}.insp50{ padding:50px}.insp55{ padding:55px}.insp60{ padding:60px}.insp65{ padding:65px}.insp40{ padding:70px}
+.insp80{ padding:80px}.insp85{ padding:85px}.insp90{ padding:90px}.insp95{ padding:95px}.insp100{ padding:100px}
+/*--楼陋--*/
+.insp2-l{ padding-left:2px}.insp5-l{ padding-left:5px}.insp8-l{ padding-left:8px}.insp10-l{ padding-left:10px}
+.insp15-l{ padding-left:15px}.insp18-l{ padding-left:18px}.insp20-l{ padding-left:20px}.insp25-l{ padding-left:25px}
+.insp30-l{ padding-left:30px}.insp35-l{ padding-left:35px}.insp40-l{ padding-left:40px}.insp45-l{ padding-left:45px}
+.insp50-l{ padding-left:50px}.insp55-l{ padding-left:55px}.insp60-l{ padding-left:60px}.insp65-l{ padding-left:65px}
+.insp70-l{ padding-left:70px}.insp75-l{ padding-left:75px}.insp80-l{ padding-left:80px}.insp85-l{ padding-left:85px}
+.insp90-l{ padding-left:90px}.insp95-l{ padding-left:95px}.insp100-l{ padding-left:100px}
+/*--楼k--*/
+.insp2-r{ padding-right:2px}.insp5-r{ padding-right:5px}.insp8-r{ padding-right:8px}.insp10-r{ padding-right:10px}
+.insp15-r{ padding-right:15px}.insp18-r{ padding-right:18px}.insp20-r{ padding-right:20px}.insp25-r{ padding-right:25px}
+.insp30-r{ padding-right:30px}.insp35-r{ padding-right:35px}.insp40-r{ padding-right:40px}.insp45-r{ padding-right:45px}
+.insp50-r{ padding-right:50px}.insp55-r{ padding-right:55px}.insp60-r{ padding-right:60px}.insp65-r{ padding-right:65px}
+.insp70-r{ padding-right:70px}.insp75-r{ padding-right:75px}.insp80-r{ padding-right:80px}.insp85-r{ padding-right:85px}
+.insp90-r{ padding-right:90px}.insp95-r{ padding-right:95px}.insp100-r{ padding-right:100px}
+/*--陇W--*/
+.insp2-t{ padding-top:2px}.insp5-t{ padding-top:5px}.insp8-t{ padding-top:8px}.insp10-t{ padding-top:10px}
+.insp15-t{ padding-top:15px}.insp18-t{ padding-top:18px}.insp20-t{ padding-top:20px}.insp25-t{ padding-top:25px}
+.insp30-t{ padding-top:30px}.insp35-t{ padding-top:35px}.insp40-t{ padding-top:40px}.insp45-t{ padding-top:45px}
+.insp50-t{ padding-top:50px}.insp55-t{ padding-top:55px}.insp60-t{ padding-top:60px}.insp65-t{ padding-top:65px}
+.insp70-t{ padding-top:70px}.insp75-t{ padding-top:75px}.insp80-t{ padding-top:80px}.insp85-t{ padding-top:85px}
+.insp90-t{ padding-top:90px}.insp95-t{ padding-top:95px}.insp100-t{ padding-top:100px}
+/*--陇U--*/
+.insp2-b{ padding-bottom:2px}.insp5-b{ padding-bottom:5px}.insp8-b{ padding-bottom:8px}.insp10-b{ padding-bottom:10px}
+.insp15-b{ padding-bottom:15px}.insp18-b{ padding-bottom:18px}.insp20-b{ padding-bottom:20px}.insp25-b{ padding-bottom:25px}
+.insp30-b{ padding-bottom:30px}.insp35-b{ padding-bottom:35px}.insp40-b{ padding-bottom:40px}.insp45-b{ padding-bottom:45px}
+.insp50-b{ padding-bottom:50px}.insp55-b{ padding-bottom:55px}.insp60-b{ padding-bottom:60px}.insp65-b{ padding-bottom:65px}
+.insp70-b{ padding-bottom:70px}.insp75-b{ padding-bottom:75px}.insp80-b{ padding-bottom:80px}.insp85-b{ padding-bottom:85px}
+.insp90-b{ padding-bottom:90px}.insp95-b{ padding-bottom:95px}.insp100-b{ padding-bottom:100px}
+
+
+/*=========================Line=========================*/
+
+/*鹿锚陆u*/
+.line-ts9{border-top:1px solid #999}.line-tsc{border-top:1px solid #ccc}.line-tsd{border-top:1px solid #ddd}.line-tse{border-top:1px solid #eee}
+.line-bs9{border-bottom:1px solid #999}.line-bsc{border-bottom:1px solid #ccc}.line-bsd{border-bottom:1px solid #ddd}.line-bse{border-bottom:1px solid #eee}
+.line-ls9{border-left:1px solid #999}.line-lsc{border-left:1px solid #ccc}.line-lsd{border-left:1px solid #ddd}.line-lse{border-left:1px solid #eee}
+.line-rs9{border-right:1px solid #999}.line-rsc{border-right:1px solid #ccc}.line-rsd{border-right:1px solid #ddd}.line-rse{border-right:1px solid #eee}
+/*碌锚陆u-陆u*/
+.line-td9{border-top:1px dashed #999}.line-tdc{border-top:1px dashed #ccc}.line-tdd{border-top:1px dashed #ddd}.line-tde{border-top:1px dashed #eee}
+.line-bd9{border-bottom:1px dashed #999}.line-bdc{border-bottom:1px dashed #ccc}.line-bdd{border-bottom:1px dashed #ddd}.line-bde{border-bottom:1px dashed #eee}
+/*碌锚陆u-脗I*/
+.line-tdo9{border-top:1px dotted #999}.line-tdoc{border-top:1px dotted #ccc}.line-tdod{border-top:1px dotted #ddd}.line-tdoe{border-top:1px dotted #eee}
+.line-bdo9{border-bottom:1px dotted #999}.line-bdoc{border-bottom:1px dotted #ccc}.line-bdod{border-bottom:1px dotted #ddd}.line-bdoe{border-bottom:1px dotted #eee}
+/*楼镁楼~庐脴陆u*/
+.line-as9{border:1px solid #999}.line-asc{border:1px solid #ccc}.line-asd{border:1px solid #ddd}.line-ase{border:1px solid #eee}
+.line-ad9{border:1px dashed #999}.line-adc{border:1px dashed #ccc}.line-add{border:1px dashed #ddd}.line-ade{border:1px dashed #eee}
+.line-ado9{border:1px dotted #999}.line-adoc{border:1px dotted #ccc}.line-adod{border:1px dotted #ddd}.line-adoe{border:1px dotted #eee}
+/*楼~庐脴虏脢陆u 5*/
+.line-as9-5{border:5px solid #999}.line-asc-5{border:5px solid #ccc}.line-asd-5{border:5px solid #ddd}.line-ase-5{border:5px solid #eee}
+.line-ad9-5{border:5px dashed #999}.line-adc-5{border:5px dashed #ccc}.line-add-5{border:5px dashed #ddd}.line-ade-5{border:5px dashed #eee}
+.line-ado9-5{border:5px dotted #999}.line-adoc-5{border:5px dotted #ccc}.line-adod-5{border:5px dotted #ddd}.line-adoe-5{border:5px dotted #eee}
+/*楼~庐脴虏脢陆u 10*/
+.line-as9-10{border:10px solid #999}.line-asc-10{border:10px solid #ccc}.line-asd-10{border:10px solid #ddd}.line-ase-10{border:10px solid #eee}
+.line-ad9-10{border:10px dashed #999}.line-adc-10{border:10px dashed #ccc}.line-add-10{border:10px dashed #ddd}.line-ade-10{border:10px dashed #eee}
+.line-ado9-10{border:10px dotted #999}.line-adoc-10{border:10px dotted #ccc}.line-adod-10{border:10px dotted #ddd}.line-adoe-10{border:10px dotted #eee}
+
+
+
+
+/*=========================Other=========================*/
+
+/*颅颅篓卯娄r录脝*/
+.stint-word{white-space: nowrap;overflow:hidden;text-overflow:ellipsis;}
+
+
+/*脕`碌虏:陇陇露锚篓陇*/
+.allr{ display:block; background-color:#FFf; padding:2px 0 2px 35px; margin:5px auto; padding:5px 0; font-size:15px;
+-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px; text-align:center; }
+
+
+/*炉S庐铆录脨脙D*/
+.title-h1{display:block; background:url(../images/footer.jpg) repeat; padding:5px 0; margin:5px auto 5px auto;
+-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px; text-align:center; font-size:16px;}
+
+.title-h2{display:block; background:url(../images/footer1.jpg) repeat; padding:5px 0 5px 35px; margin:5px auto;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;font-family:Arial,"路L鲁n楼驴露脗脜茅","Microsoft JhengHei",sans-serif;}
+
+.title-h3{display:block; background:url(../images/footer1.jpg) repeat; padding:5px 0 5px 20px; margin:5px auto;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px; font-size:18px; font-family:Arial,"路L鲁n楼驴露脗脜茅","Microsoft JhengHei",sans-serif;}
+
+
+
+
+/*hr{ border:none; border-top:1px solid #fff;border-bottom:1px solid #ddd; margin-bottom:20px}*/
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.25), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.25), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.25), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.25), rgba(0,0,0,0));
+}
+
+hr.line {
+    border: 0;
+    height: 1px; margin:0;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0.25), rgba(0,0,0,0.25), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0.25), rgba(0,0,0,0.25), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0.25), rgba(0,0,0,0.25), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0.25), rgba(0,0,0,0.25), rgba(0,0,0,0));
+}
+
+hr.das {
+    border-top:none;border-bottom: 1px dashed #ccc;
+    height: 0px; margin:0;
+}
+
+
+.vline{ width:1px; height:80%; margin:0 10px;display:inline-block;*display:inline;zoom:1; vertical-align:middle;
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.35), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.35), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.35), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.35), rgba(0,0,0,0));
+}
+
+.vlinef{ width:1px; height:80%; margin:0 10px;display:inline-block;*display:inline;zoom:1; vertical-align:middle;
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(255,255,255,0.85), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(255,255,255,0.85), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(255,255,255,0.85), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(top, rgba(0,0,0,0), rgba(255,255,255,0.85), rgba(0,0,0,0));
+}
