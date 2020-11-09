@@ -550,26 +550,26 @@ a.card {
 
 #content section h2::before {
   position: absolute;
-  bottom: 34%;
-  left: -5px;
+  bottom: 25%;
+  left: 0;
   display: block;
   content: '';
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background: #1474ba;
+  width: 2px;
+  height: 20px;
+  /* border-radius: 50%; */
+  background: #747474;
 }
 
 #content section h2::after {
   position: absolute;
-  bottom: 34%;
-  right: -5px;
+  bottom: 25%;
+  right: 0px;
   display: block;
   content: '';
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background: #1474ba;
+  width: 2px;
+  height: 20px;
+  /* border-radius: 50%; */
+  background: #747474;
 }
 
 .case a {
