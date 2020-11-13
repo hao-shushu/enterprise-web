@@ -667,6 +667,7 @@ footer p {
   padding-bottom: 40px;
   margin-bottom: 40px;
   border-top: 1px solid #ddd;
+  min-height: 67vh;
 }
 
 .left {
@@ -1787,4 +1788,187 @@ footer p {
   font-size: 12px;
   color: #666666;
   cursor: pointer;
+}
+
+
+
+/* 员工风采 */
+#DB_gallery ul,
+#DB_gallery li {
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+
+#DB_gallery img {
+  border: none;
+  vertical-align: top;
+}
+
+#DB_gallery .DB_imgSet {
+  position: relative;
+  width: 800px;
+  overflow: hidden;
+  padding: 0 40px;
+  height: 586px;
+}
+
+#DB_gallery .DB_imgSet .DB_imgWin {
+  height: 100%;
+  max-height: 500px;
+  overflow: hidden;
+}
+#DB_gallery .DB_imgSet .DB_imgWin img{
+  width: 800px;
+  max-height: 500px;
+}
+#DB_gallery .DB_imgSet .DB_page {
+  position: absolute;
+  top: 10px;
+  font: 11px tahoma bold;
+  padding: 5px;
+  color: #ffffff;
+  left: 60px;
+}
+
+#DB_gallery .DB_imgSet .DB_page .DB_current {
+  color: #ffff00;
+  font-size: 14px;
+}
+
+#DB_gallery .DB_imgSet .DB_page .DB_total {
+  color: #ffcc00;
+  font-size: 14px;
+}
+#DB_gallery .DB_imgSet .iconfont{
+  position: absolute;
+  top: 50%;
+  margin-top: -100px;
+  cursor: pointer;
+  width: 30px;
+  height: 60px;
+  opacity: 0.5;
+  font-size: 60px;
+  color: #676767;
+}
+#DB_gallery .DB_imgSet .DB_prevBtn{
+  left: -10px;
+}
+#DB_gallery .DB_imgSet .iconfont:hover{
+  color: #fff;
+}
+#DB_gallery .DB_imgSet .DB_nextBtn {
+
+  right: 10px;
+
+}
+#DB_gallery .DB_thumSet {
+  position: absolute;
+  margin-top: 10px;
+  width: 800px;
+  overflow: hidden;
+  bottom: 0;
+  
+}
+
+#DB_gallery .DB_thumSet .DB_thumMove {
+  position: relative;
+  white-space: nowrap;
+  font-size: 0
+}
+
+#DB_gallery .DB_thumSet .DB_thumMove li {
+  display: inline;
+  margin-right: 9px
+}
+#DB_gallery .DB_thumSet .DB_thumMove li img{
+  width: 126px;
+  height: 77px;
+}
+#DB_gallery .DB_thumSet .DB_prevPageBtn {
+  position: absolute;
+  top: 0;
+  cursor: pointer;
+  left: 0;
+}
+
+#DB_gallery .DB_thumSet .DB_nextPageBtn {
+  position: absolute;
+  top: 0;
+  cursor: pointer;
+  right: 0;
+}
+
+#DB_gallery .DB_thumSet .DB_thumLine {
+  position: absolute;
+  width: 123px;
+  height: 73px;
+  border: 2px solid rgb(255 245 57);
+  top: 0;
+  border-radius: 2px;
+}
+
+.DB_gallery {
+  position: absolute;
+  left: 50%;
+  top: 46%;
+  transform: translate(-50%, -50%);
+}
+
+.picture-list {
+  overflow: hidden;
+  width: 700px;
+  height: 135px;
+  margin-bottom: 20px;
+}
+.picture-list .pic-title{
+  font-size: 14px;
+  color: #000;
+  border-top: 1px dashed #ccc;
+  padding:10px 0;
+}
+.picture-list:first-of-type .pic-title{
+  border:0;
+}
+.picture-list .pic-title span{
+  font-weight: bold;
+  color: rgb(8, 103, 167);
+}
+
+.picture-list ul {
+  padding: 0;
+}
+
+.picture-list ul li {
+  list-style: none;
+  display: inline-block;
+  width: 225px;
+  height: 135px;
+}
+
+.picture-list ul li img {
+  width: 225px;
+  height: 135px;
+}
+
+.mask {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .9);
+  z-index: 100;
+}
+.mask .close-pic{
+  position: absolute;
+  right: 200px;
+  font-size: 60px;
+  top: 23px;
+  color: #666;
+  cursor: pointer;
+}
+.mask .close-pic:hover{
+  color: #ccc; 
 }
